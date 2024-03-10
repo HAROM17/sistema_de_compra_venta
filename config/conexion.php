@@ -5,7 +5,7 @@
 
         protected function Conexion(){
             try{
-                   $conectar = $this->dbh=new PDO("sqlsrv:Server=DESKTOP-SVUILV5\SQLEXPRESS;Database=CompraVenta","sa","h4n5_sql");
+                   $conectar = $this->dbh=new PDO("sqlsrv:Server=DESKTOP-SVUILV5\SQLEXPRESS;Database=CompraVenta","sa","******");
                    //$conectar = $this->dbh=new PDO("sqlsrv:server = tcp:harom01.database.windows.net,1433; Database = compraventa01","admin_super","xdaquivaelpasswordp");
                 return $conectar;
             }catch (Exception $e){
