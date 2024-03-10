@@ -295,6 +295,7 @@
     <script src="assets/js/plugins.js"></script>
 
     <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+
 </body>
 
 </html>
